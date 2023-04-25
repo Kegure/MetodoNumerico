@@ -13,7 +13,7 @@ def methods_options_menu():
             bisection = Bisection("x**3 - 9*x +3", (0, 1), 0.01, 500)
             print(bisection.calculus())
         case 2:
-            falsePosition = FalsePosition("x**3 - 9*x +3", (0, 10), 0.01, 500)
+            falsePosition = FalsePosition("x**3 - 9*x +3", (0, 1), 0.01, 500)
             print(falsePosition.calculus())
         case 0:
             return print("Programa Finalizado!")
